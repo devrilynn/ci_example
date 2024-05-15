@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(task.my_func(), expected)
 
     def test2(self):
-        expected = "Hello World"
+        expected = "Hola World"
         self.assertNotEqual(task.my_func(), expected)
 
 
